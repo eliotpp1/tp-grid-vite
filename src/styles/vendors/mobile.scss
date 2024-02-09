@@ -21,3 +21,15 @@ article {
 #rutherfordium {
   font-size: 0.75rem;
 }
+
+@for $i from 1 through 8 {
+  .element[data-period="#{$i}"] {
+    grid-row: #{$i};
+  }
+}
+
+@for $i from 1 through 18 {
+  .element[data-group="#{$i}"] {
+    grid-column: #{$i};
+  }
+}
