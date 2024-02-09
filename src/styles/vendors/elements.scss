@@ -9,6 +9,11 @@ img {
 .element {
   background-color: lightgrey;
 }
+
+.element__symbol {
+  font-size: 2em;
+  font-weight: bold;
+}
 $types: alkaliMetal lanthanide nobleGas transitionMetal postTransitionMetal
   alkalineEarthMetal actinide metalloid otherNonMetal;
 
